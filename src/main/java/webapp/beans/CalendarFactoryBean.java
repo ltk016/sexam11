@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 import org.springframework.beans.factory.FactoryBean;
 
-public class CalendarFactoryBean implements FactoryBean<Calendar>{
+public class CalendarFactoryBean implements FactoryBean<Calendar> {
 
 	@Override
 	public Calendar getObject() throws Exception {
@@ -20,5 +20,5 @@ public class CalendarFactoryBean implements FactoryBean<Calendar>{
 	public boolean isSingleton() {
 		return false;
 	}
-	
+
 }
